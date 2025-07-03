@@ -1,6 +1,6 @@
 # BIKE Fault Attacks
 
-There are several firmware versions with triggers at different positions. The jupyter notebook [Fault Pattern 2](jupyter/Fault%20Pattern%202.ipynb) is supposed to provide an easy start.
+There are several firmware versions with triggers at different positions. The jupyter notebook [Fault Pattern 2](jupyter/Fault%20Pattern%202.ipynb) is supposed to provide an easy start and holds 3 configurations to successful attacks.
 
 The changes made are basically limited to the files `kem.c`, `sampling.c`, and `sampling_portable.c` in the folders `pqm4/[mupq/]crypto_kem/bikel1_*/[opt|m4f]`, while the interactive firmware file can be found at `pqm4/mupq/crypto_kem/fi.c`.
 
@@ -10,7 +10,6 @@ Some subfolders/submodules were removed to keep anonymity for the submission. Th
 - `benchmarks`: contains benchmarks created with the `pqm4` project for various targets.
 - `jupyter`: contains several jupyter notebooks. They are nice to set code in context and create reproducibility. Only [KAT.ipynb](jupyter/KAT.ipynb) and [Interactive Target.ipynb](jupyter/Interactive%20Target.ipynb) are meant to be used directly. They provide handy ways to make KATs and use the interactive firmware (from `pqm4`) for the targets `ChipWhisperer-Lite ARM` and `discovery board stm23f4`. Some notebooks come from the [`chipwhisperer` Project](https://github.com/newaetech/chipwhisperer/)
 - [`pqm4`](https://github.com/mupq/pqm4): It holds several implementations of post quantum sign and kem schemes (which were under consideration from NIST). Here I had to adjust the code in many ways to build a firmware that is suitable for my work.
-- `Reference_Implementation` is from the team that developed BIKE and can be found at their [site](https://bikesuite.org/files/v4.1/Reference_Implementation.2020.10.20.2.zip). Here only the additional level definitions were added to generate the `KAT` files.
 - `scripts`: self written scripts which are in use by the jupyter notebooks.
 
 ### pqm4
