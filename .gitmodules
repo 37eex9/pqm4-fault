@@ -1,0 +1,9 @@
+[submodule "bike_fault"]
+	path = bike_fault
+	url = https://github.com/atreff/bike_fault
+[submodule "pqm4/mupq/pqclean"]
+	path = pqm4/mupq/pqclean
+	url = https://github.com/PQClean/PQClean.git
+[submodule "pqm4/libopencm3"]
+	path = pqm4/libopencm3
+	url = https://github.com/libopencm3/libopencm3.git
