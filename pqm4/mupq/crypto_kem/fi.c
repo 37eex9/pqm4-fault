@@ -208,12 +208,16 @@ void fi_set_trigger(void)
   h = getch();
   len = serial_get_len();
   if (h == 0) {
+#ifdef TRIGGER_ADV
     trigger_set_h0(len);
+#endif // TRIGGER_ADV
     fi_done();
     return;
   }
   if (h == 1) {
+#ifdef TRIGGER_ADV
     trigger_set_h1(len);
+#endif // TRIGGER_ADV
     fi_done();
     return;
   }
