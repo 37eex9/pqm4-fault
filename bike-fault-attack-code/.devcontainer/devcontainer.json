@@ -1,0 +1,13 @@
+{
+  "name": "Python DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {},
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python"
+  },
+  "extensions": [
+    "ms-python.python"
+  ]
+}

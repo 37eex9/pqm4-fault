@@ -1,0 +1,21 @@
+#Ignore all folders
+*/
+
+# Except the "codebase" folder
+!/codebase/
+!/fig/
+!/ML/
+!/ML/pre_trained_models
+!/test_key/
+!readme.md
+
+
+# Ignore compiled files (adjust these patterns based on your programming language/build system)
+*.o
+*.out
+*.class
+*.dll
+*.exe
+*.csv
+
+# Add more patterns if needed for your specific compiled files
