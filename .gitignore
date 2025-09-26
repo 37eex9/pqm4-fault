@@ -15,12 +15,12 @@ template_expose.zip
 TODO.md
 .vscode/
 .ipynb_checkpoints
-pqm4/obj/
-pqm4/hex/
+fault-injection/pqm4/obj/
+fault-injection/pqm4/hex/
 *__pycache__/
 traces
 
-scripts/level*
+fault-injection/scripts/level*
 *.sage.py
 
 Reference_Implementation/bike-nist-kat
